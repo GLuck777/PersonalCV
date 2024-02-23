@@ -1,0 +1,39 @@
+
+@page{margin:0%}
+
+body {
+    padding: 1.5em; 
+    background-color: rgba(128, 128, 128, 0.377); 
+    width: 700px;
+}
+fieldset{
+    padding: 3em;
+}
+.infos {
+    list-style: none; 
+    position: relative; 
+    top: -2em; 
+    left: -2em; 
+    line-height: 1.5em;
+}
+h3 {
+    text-align: end; 
+    position: relative; 
+    top: 2em;
+}
+.cellule_cursus{
+    padding-right: 10px; 
+    text-align: justify;
+}
+.cellule_compétences{
+    padding-right: 10px; 
+    text-align: justify;
+}
+.signature {
+    text-align:end; 
+    margin-top: 2em;
+}
+
+
+
+

@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    /* list-style: none; */
+    box-sizing: border-box;
+    color: #0b0a0c;
+}
+html{
+    width: 21cm;
+    min-height: 29.7cm;
+    /* border: 1px #D3D3D3 solid; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+/*YinMn Blue: 404E7C, Space Cadet: 251f47, Dark Purple: 260F26 */
+/*deux gris 999A97, 8E8E96*/
+/*Dark sasuke 1C1B20*/
+
+
+body{
+    width: 100%;
+    min-height: 29.7cm;
+    background-color: #404E7C;
+    background-color: #9a9faf;
+    position: relative;
+    
+    /* border: 2px solid blueviolet; */
+}
+header {
+    position: relative;
+    left: 0;
+    right: 0;
+    /* padding: 3em 2em; */
+    padding: 2.2em 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dbdbe6;
+    color: #0b0a0c;
+    /* color: #dbdbe6; */
+    border-radius: 0 0 0 4pc;
+    z-index: 2;
+    /* box-shadow: 2px 2px 100px black; */
+}
+.profilPicture{
+    position: absolute;
+    top: 0.5em;
+    right: 0.8rem;
+    /* width: 96px; */
+    width: 144px;
+    /* height: 96px; */
+    height: 144px;
+    /* background-color: #404E7C; */
+}
+.fieldPresentation{
+    border-radius: 0 0 0 4pc;
+}
+.rangement_droit{
+    position: relative;
+    top: 1.55rem;
+    left: 2rem;
+    /* right: 0; */
+}
+
+.partie_gauche {
+    float: left;
+    /* width: 50%; */
+    position: relative;
+    /* background-color: #251F47; */
+    background-color: #9a9faf;
+    /* width: fit-content; */
+    /* width: 55%; */
+    width: 12.5cm;
+    border-radius: 0 8px 8px 5pc;
+    padding-left: 0.8em;
+}
+.partie_gauche fieldset{
+    margin: 0 0 0 0.3em;
+}
+.formation{
+    margin: 0.5em 0 0 0.3em;
+}
+
+
+
+.item h3{
+    position: relative;
+    text-align: center;
+}
+.item i{
+    position: relative;
+    line-height: 0;
+}
+
+.experience{
+    min-width: 428px;
+    padding: 0.8em 0 0 0;
+    list-style: none;
+    margin: 0 0 0 0.8em;
+}
+.experience_ligne{
+    height: 130px;
+}
+/* .formation_ligne{
+    height: 110px;
+} */
+.experience_ligne li{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1rem;
+}
+.decalexperience {
+    position: relative;
+    text-align: end;
+    top: -1.7em;
+    /* right: -0.5em; */
+    padding-right: 1em;
+}
+.item i {
+    position: relative;
+    /* top: -2em; */
+    top: -0.1em;
+    margin-bottom: 2em;
+}
+.experience_ligne i{
+    position: relative;
+    top: -2em;
+    margin-bottom: 2em;
+}
+.experience_ligne li{
+    position: relative;
+    top: -1.2em;
+    max-width: 413px;
+}
+.partie_droite {
+    margin: 0;
+    float: right;
+    position: relative;
+    margin: 5px 0 0 1%;
+    width: 8cm;
+    height: 25cm;
+    padding-left: 0.8em;
+    background-color: #dbdbe6;
+    border-radius: 2pc 2pc 2pc 2pc;
+    /* font-size: 0.9rem; */
+    font-size: 1rem;
+}
+.right {
+    position: relative;
+    padding: 1em;
+    list-style-type: square;
+    height: 100%;
+    /* list-style: blue; */
+}
+.right div {
+    padding: 0.8em 0 0.8em 0.5em;
+}
+.right div.langage {
+    padding: 0.8em 0 0.8em 0;
+}
+
+legend h2 {
+    padding-top: 0.4em;
+    margin-bottom: 0.8rem;
+}
+section.experience h2{
+    padding-left: 0.4em;
+    margin-bottom: 0.8rem;
+    position: relative;
+    left: -1rem;
+}
+h3{
+    padding: 5px 0;
+}
+.partie_droite li {
+    font-family: Arial, Helvetica, sans-serif;
+    /* line-height: 2em; */
+    line-height: 1.5rem;
+}
+img.icone{
+    width: 48px;
+}
+
+@media (max-width:935px) {
+    
+    /* .partie_droite {
+        position: relative;
+        margin: 0 0 0 1%;
+        width: 44%;
+        height: 25.2cm;
+        padding-left: 0.8em;
+    } */
+    aside .right{
+        padding: 0 auto;
+    }
+}
