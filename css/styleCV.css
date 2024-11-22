@@ -50,6 +50,14 @@ header {
     /* height: 96px; */
     height: 144px;
     /* background-color: #404E7C; */
+    overflow: hidden;
+}
+.profilPicture img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: scale(1.5);
 }
 .fieldPresentation{
     border-radius: 0 0 0 4pc;
