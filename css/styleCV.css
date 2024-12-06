@@ -1,8 +1,15 @@
+/*tout le css qui sera appliqué globalement se trouve ici dans '*' */
+/* Toutes les lignes qui sont entre / * et * / sont des commentaires et ne sont pas pris en compte par le navigateur */
+/*Un Cv a besoin d'une palette de couleurs, on peut trouver notre palette de couleurs sur www.https://coolors.co/ voici un exemple de couleurs que l'on peux utiliser pour notre Cv: */
+/*YinMn Blue: 404E7C, Space Cadet: 251f47, Dark Purple: 260F26 */
+/*deux gris 999A97, 8E8E96*/
+/*Dark sasuke 1C1B20*/
+/*les couleur sont changés dans quatre différents endroits : body, header, .partie_gauche, .partie_droite */
 *{
     padding: 0;
     margin: 0;
     text-decoration: none;
-    /* list-style: none; */
+    /* list-style: none; si on veut enlever les puces des balises li sur le html*/
     box-sizing: border-box;
     color: #0b0a0c;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,9 +21,6 @@ html{
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
 }
-/*YinMn Blue: 404E7C, Space Cadet: 251f47, Dark Purple: 260F26 */
-/*deux gris 999A97, 8E8E96*/
-/*Dark sasuke 1C1B20*/
 
 
 body{
@@ -35,7 +39,7 @@ header {
     right: 0;
     /* padding: 3em 2em; */
     padding: 2.2em 2em;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     background-color: #dbdbe6;
     color: #0b0a0c;
     /* color: #dbdbe6; */
@@ -81,7 +85,6 @@ span.rangement_droit{
 
 .partie_gauche {
     float: left;
-    /* width: 50%; */
     position: relative;
     /* background-color: #251F47; */
     background-color: #9a9faf;
@@ -89,6 +92,7 @@ span.rangement_droit{
     /* width: fit-content; */
     /* width: 55%; */
     width: 12.5cm;
+    height: 135vh; /*essai effet visuel pour la taille */
     /* border-radius: 0 8px 8px 5pc; */
     border-radius: 0 30px 0px 0pc;
     padding-left: 0.8em;
@@ -127,7 +131,7 @@ span.rangement_droit{
     height: 110px;
 } */
 .experience_ligne li{
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     line-height: 1rem;
     position: relative;
     top: -1.4em;
@@ -199,7 +203,7 @@ h3{
     padding: 5px 0;
 }
 .partie_droite li {
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     /* line-height: 2em; */
     line-height: 1.5rem;
     list-style-type: circle;
@@ -219,5 +223,10 @@ img.icone{
     } */
     aside .right{
         padding: 0 auto;
+    }
+}
+@media print {
+    .partie_gauche{
+        height: 85.2vh;
     }
 }
