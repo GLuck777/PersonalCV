@@ -83,19 +83,30 @@ span.rangement_droit{
     top: -0.15rem;
 }
 
+/*.partie_gauche {
+    float: left;
+    position: relative;
+    background-color: #9a9faf;
+    width: 12.5cm;
+    height: 135vh;
+    border-radius: 0 30px 0px 0pc;
+    padding-left: 0.8em; */
+    /*float: left;
+    position: relative;
+    background-color: #9a9faf;
+    width: 12.5cm;
+    border-radius: 0 30px 0px 0pc;
+    padding: 1rem 0.8em;
+} */
 .partie_gauche {
     float: left;
     position: relative;
-    /* background-color: #251F47; */
     background-color: #9a9faf;
-    /* background-color: #dbdbe6; */
-    /* width: fit-content; */
-    /* width: 55%; */
     width: 12.5cm;
-    height: 135vh; /*essai effet visuel pour la taille */
-    /* border-radius: 0 8px 8px 5pc; */
     border-radius: 0 30px 0px 0pc;
-    padding-left: 0.8em;
+    padding: 1rem 0.8em;
+    overflow: hidden; /* Empêche le dépassement */
+    box-sizing: border-box; /* Prend en compte padding/border dans la largeur */
 }
 .partie_gauche fieldset{
     margin: 0 0 0 0.3em;
@@ -124,8 +135,10 @@ span.rangement_droit{
     list-style: none;
     margin: 0 0 0 0.8em;
 }
+
 .experience_ligne{
-    height: 130px;
+    /* height: 130px; */
+    min-height: 130px;
 }
 /* .formation_ligne{
     height: 110px;
@@ -137,6 +150,7 @@ span.rangement_droit{
     top: -1.4em;
     max-width: 413px;
 }
+
 .decalexperience {
     position: relative;
     text-align: end;
@@ -144,18 +158,21 @@ span.rangement_droit{
     /* right: -0.5em; */
     padding-right: 1em;
 }
+
 .item i {
     position: relative;
     /* top: -2em; */
     top: -0.1em;
     margin-bottom: 2em;
 }
+
 .experience_ligne i{
     position: relative;
     /* top: -2em; */
     top: -1.8em;
     margin-bottom: 2em;
 }
+
 /* .experience_ligne li{
     position: relative;
     max-width: 413px;
