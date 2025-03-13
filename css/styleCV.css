@@ -73,12 +73,26 @@ header {
     border-bottom: 2px #cacad7 double;
     border-left: 2px #cacad7 double;
 }
+/*Lien vers ton Portfolio*/
+.info_port{
+    width: 25%;
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    font-weight: bold;
+}
+/*couleur rouge pour le Lien vers ton Portfolio*/
+.info_port a:hover{
+   color: red;
+}
+
 .rangement_droit{
     position: relative;
     top: 0.25rem;
     left: 1.25rem;
     /* right: 0; */
 }
+
 span.rangement_droit{
     top: -0.15rem;
 }
@@ -249,5 +263,8 @@ img.icone{
     }
     .partie_droite{
         height: 100%;
+    }
+    .info_port{
+        display: none;
     }
 }
