@@ -181,15 +181,15 @@ span.rangement_droit{
     margin: 0;
     float: right;
     position: relative;
-    margin: 5px 0 0 1%;
+    /* margin: 5px 0 0 1%; */
     width: 8cm;
     height: 25cm;
-    padding-left: 0.8em;
-    /* background-color: #9a9faf; */
+    /* padding-left: 0.8em; */
     background-color: #dbdbe6;
     border-radius: 2pc 2pc 2pc 2pc;
-    /* font-size: 0.9rem; */
     font-size: 1rem;
+    /* background-color: #9a9faf; */
+    /* font-size: 0.9rem; */
 }
 .right {
     position: relative;
@@ -222,7 +222,8 @@ h3{
 .partie_droite li {
     /* font-family: Arial, Helvetica, sans-serif; */
     /* line-height: 2em; */
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
+    line-height: 1.35rem;
     list-style-type: circle;
 }
 img.icone{
@@ -244,6 +245,9 @@ img.icone{
 }
 @media print {
     .partie_gauche{
-        height: 85.2vh;
+        height: 100%;
+    }
+    .partie_droite{
+        height: 100%;
     }
 }
